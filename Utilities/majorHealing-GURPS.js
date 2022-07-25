@@ -1,5 +1,5 @@
 function minorHealing(energy) {
- GURPS.executeOTF(`/r [/hp +${energy} @target]]`)
+ GURPS.executeOTF(`/r [/hp +${energy} @target]`)
  GURPS.executeOTF(`/r [/fp -${energy}]`)
 }
 

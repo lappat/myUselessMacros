@@ -1,6 +1,6 @@
 function majorHealing(energy) {
   let realHealing = energy *2
-   GURPS.executeOTF(`/r [/hp +${realHealing}  @target]]`)
+   GURPS.executeOTF(`/r [/hp +${realHealing}  @target]`)
    GURPS.executeOTF(`/r [/fp -${energy}]`)
   }
   
